@@ -29,7 +29,7 @@
     <copyfile src="build-script" dest="mk" />
   </project>
 
-  <project path="android" name="MoKee/android" />
+  <project path="android" name="khairuldevh/android" />
 
   <project path="abi/cpp" remote="third" name="ThirdProject/android_abi_cpp" groups="pdk" />
   <project path="art" name="MoKee/android_art" groups="pdk" />
