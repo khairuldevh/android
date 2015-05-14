@@ -29,7 +29,7 @@
     <copyfile src="build-script" dest="mk" />
   </project>
 
-  <project path="android" name="khairuldevh/android" />
+  <project path="android" name="MoKee/android" />
 
   <project path="abi/cpp" remote="third" name="ThirdProject/android_abi_cpp" groups="pdk" />
   <project path="art" name="MoKee/android_art" groups="pdk" />
@@ -591,8 +591,4 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/mk" name="MoKee/android_vendor_mk" />
-  <project path="kernel/MSM8226-Samsung/samsung_ms013g" name="aapav01/android_kernel_samsung_ms013g" remote="github" revision="cm-12.1" />
-  <project path="device/MSM8226-Samsung/samsung_ms013g" name="aapav01/android_device_samsung_ms013g_TB" remote="github" revision="lp5.0" />
-  <project path="device/MSM8226-Samsung/samsung-ms013g-common" name="Rox-/android_device_samsung_msm8226-common" remote="github" revision="cm-12.1" />
-  <project path="vendor/MSM8226-Samsung" name="mukulsoni/android_vendor_samsung_ms013g" remote="github" revision="cm-12.0" />
 </manifest>
